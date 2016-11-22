@@ -1,0 +1,21 @@
+body, h1, p {
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    color: coral;
+    margin: 50px 0 25px 0;
+}
+
+
+body {
+
+    color: cadetblue
+}
+
+p {
+    font-family: nonospace;
+}
