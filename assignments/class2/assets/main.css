@@ -21,7 +21,7 @@ main {
     border: 3px solid black;
     height: 1000px;
     position: absolute;
-    padding: 0 220px 100px 300px;;
+    padding: 0 220px 100px 200px;
     z-index: 100;
     margin-bottom: 100px;
 
