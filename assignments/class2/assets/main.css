@@ -53,6 +53,8 @@ aside div {
     width:150px;
     background-color: aquamarine;
     text-align:center;
+    margin: auto;
+    margin-top: 10px;
 
 
 }

@@ -78,3 +78,13 @@ footer {
     width:100%;
 
 }
+
+figcaption {
+    display: none;
+}
+img:hover {
+   /* opacity: .5;*/
+}
+/*img:hover + figcaption{
+    display: block;
+}*/
