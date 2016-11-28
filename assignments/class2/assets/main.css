@@ -54,28 +54,8 @@ aside div {
     background-color: aquamarine;
     text-align:center;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 14px;
 
-
-}
-.div1{
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    padding: 10px;
-}
-.div2{
-    position: absolute;
-    top: 110px;
-    right: 20px;
-    padding: 10px;
-}
-
-.div3{
-    position: absolute;
-    top: 200px;
-    right: 20px;
-    padding: 10px;
 }
 footer{
     background-color:crimson;
