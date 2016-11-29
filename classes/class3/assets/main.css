@@ -78,12 +78,13 @@ footer {
     width:100%;
 
 }
+.clearfix { clear: both;}
 
 figcaption {
     display: none;
 }
-img:hover {
-   /* opacity: .5;*/
+/*img:hover {
+    opacity: .5;*/
 }
 /*img:hover + figcaption{
     display: block;
