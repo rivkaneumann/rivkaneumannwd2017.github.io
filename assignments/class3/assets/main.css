@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    background-color:darkblue;
+    border: 3px solid black;
+    height: 300px;
+}
+nav {
+    background-color:coral;
+    border: 3px solid black;
+    width: 200px;
+    float:left;
+    position: fixed;
+    margin: 300px 0;
+    z-index: 150;
+
+}
+main {
+    background-color:darkorange;
+    border: 3px solid black;
+    height: 1000px;
+    position: absolute;
+    padding: 0 220px 100px 200px;
+    z-index: 100;
+    margin-bottom: 100px;
+
+}
+main p {
+    font-size: 25px;
+}
+.phone1 {
+    float: left;
+    font-size: 20px;
+
+
+}
+.phone2{
+    float:right;
+    width: 180px;
+}
+aside {
+    background-color:darkgreen;
+    border: 3px solid black;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+aside div {
+    height: 80px;
+    width:150px;
+    background-color: aquamarine;
+    text-align:center;
+    margin: auto;
+    margin-top: 14px;
+
+}
+footer{
+    height: 100px;
+    width:100%;
+    position: fixed;
+    z-index: 200;
+    bottom: 0;
+    text-align: center;
+    border: 3px solid black;
+}
+footer div{
+    background-color: crimson;
+    height: 100%;
+    display: none;
+}
