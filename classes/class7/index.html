@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Class 7 work</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <div id="clickme" data-something="something">Click Here</div>
+    <div id="menu">here is the menu<br>more<br>more</div>
+
+    <p>here is some text <a href="#" data title="some help text">some text</a></p>
+
+    <main>
+
+        <table>
+            <caption>A table of People</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Place of birth</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rivka</td>
+                    <td>Brooklyn</td>
+                    <td rowspan ="2">5</td>
+                </tr>
+              <tr>
+                    <td>jdfk</td>
+                    <td>Brooklyn</td>
+
+                </tr>
+                  <tr>
+                    <td>lkna</td>
+                    <td colspan="2">Brooklyn</td>
+
+                </tr>
+            </tbody>
+
+        </table>
+
+        <form id="myform">
+            <fieldset>
+                <legend>Tell me about yourself</legend>
+                <input type="text" name="myname" placeholder="type your name" required>
+                <input type="number" name="myage" min=18 max=65 step=3 disabled><!--step means put it in multiples of that number-->
+                <input type="email" name="myemail" placeholder="type in your email address" autofocus>
+            </fieldset>
+            <div>Choose your favorite color</div>
+            <input type="checkbox" name="favcolor" value="red" id="color_red"><label for="color_red">Red</label>
+            <input type="checkbox" name="favcolor" value="blue" id="color_blue"><label for="color_blue">blue</label>
+            <input type="checkbox" name="favcolor" value="yellow" id="color_yellow"><label for="color_yellow">Yellow</label>
+            <input type="checkbox" name="favcolor" value="green" id="color_green"><label for="color_green">Green</label>
+
+
+            <div>Choose 1 favorite shape</div>
+            <input type="radio" name="favshape" value="square" id="square"><label for="square">Square</label>
+              <input type="radio" name="favshape" value="circle" id="circle"><label for="circle">Circle</label>
+
+
+            <input type="password" name="mypass" placeholder="put in your password" maxlength="8">
+            <input type="file" name="myfile" multiple>
+            <input type="range" name="myrange" min=0 max=100 value="25">
+            <input type="reset">
+
+            <div>Whats the weather</div>
+            <select name="weather">
+                <option value="cold" selected>Cold</option>
+                 <option value="freezing">Freezing</option>
+                 <option value="warm">warm</option>
+
+            </select>
+
+            <textarea rows="4" cols="100" name="message"></textarea>
+
+            <input type="submit" value="Click Me!">
+
+        </form>
+
+
+    </main>
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

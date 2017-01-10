@@ -1,0 +1,92 @@
+#clickme{
+    width:100px;
+    height: 100px;
+    background: blue;
+    cursor: pointer;
+    margin: 30px;
+    position: relative;
+}
+#clickme::beofore{
+    content: url(../class3/assets/dancer.jpg);
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    background: #fff;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+
+}
+
+#clickme::after{
+    content: attr(data-something);
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    background: #fff;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+a{
+    position: relative;
+}
+a::after{
+    position: absolute;
+    content: attr(data-title);
+    background: orange;
+    bottom: 100%;
+    left: 20%;
+    white-space:nowrap;
+    display: none;
+
+
+}
+a:hover::after{
+    display:inline-block;
+}
+
+#menu{
+    position: absolute;
+    width: 100px;
+    right: -100px;
+
+}
+body{
+    overflow-x: hidden;
+}
+tr{
+    padding: 10px;
+    background: #eee;
+}
+td{
+     border: 1px dotted #333;
+}
+table{
+    margin: 50px;
+}
+input, textarea, select{
+    display: block;
+    margin: 20px;
+}
+input[type="checkbox"], input[type="radio"]{
+    display:inline-block;
+    margin: 10px;
+}
+
+input:focus{
+    box-shadow: 0 0 5px #111;
+}
+input:invalid{
+    color: red;
+}
+input:valid{
+    color: green;
+
+}
+input:required{
+    border: 3px solid purple;
+}

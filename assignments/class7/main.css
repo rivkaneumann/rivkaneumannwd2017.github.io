@@ -1,0 +1,24 @@
+#circle {
+    border: 3px solid black;
+    border-radius: 50%;
+    background:hsl(0,50%,50%);
+    height: 500px;
+    width: 500px;
+    margin: 100px auto;
+    position: relative;
+}
+
+    #circle::after{
+        content: attr(data-color);
+        position: absolute;
+        height: 50%;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        background: rgba(255, 255, 255, .5);
+        display: none;
+
+    }
+#circle:hover::after{
+    display: block;
+}
