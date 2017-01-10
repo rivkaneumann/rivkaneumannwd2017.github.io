@@ -6,7 +6,7 @@
     margin: 30px;
     position: relative;
 }
-#clickme::beofore{
+#clickme::before{
     content: url(../class3/assets/dancer.jpg);
     display: block;
     position: absolute;

@@ -44,12 +44,12 @@ footer {
     bottom: 11px;
     top: auto;
 }
-.menu{
+#menu{
     background: white;
     width: 230px;
     height: 374px;
     position: absolute;
-    right:80px;
+    right:-300px;
     border-radius: 10px;
     border: 3px solid black;
 }

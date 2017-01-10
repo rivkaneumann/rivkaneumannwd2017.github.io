@@ -1,16 +1,20 @@
-•	$(function(){
+$(function(){
 
-        var menuHidden = true;
+    var invisible = true;
+    var myRight = "320px";
 
-        $("#hamburger").on("click", function(){
+    $("#hamburger").on("click", function(){
+       $("#menu").animate(
+            {right: myRight}
+           );
 
-            if (menuHidden){
-                $(this).animate({"left": "+=240px"}, "slow");
-                    menuHidden = false;
-            }else{
+        if (invisible) {
+            myRight = "-230px";
+            invisible = false;
+        }else{
+            myRight = "320px";
+            invisible = true;
 
-                $(this).animate({"right": "-=240px"}, "slow");
-                menuHidden = true;
-            }
-        });
-
+        }
+    });
+});
