@@ -1,0 +1,78 @@
+div{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+
+#div1{
+    background-color: red;
+    background: linear-gradient(red,yellow);
+
+}
+#div2{
+    background-color: blue;
+    background: linear-gradient(blue,green,yellow, turquoise);
+}
+#div3{
+      background-color: blue;
+    background: linear-gradient(green,green 20%, turquoise 20%, turquoise 80%, yellow 80% );
+}
+#div4{
+      background-color: blue;
+    background: linear-gradient(45deg, green,green 20%, turquoise 20%, turquoise 80%, yellow 80% );
+}
+#div5{
+    position:relative;
+    width: auto;
+    height:auto;
+    display: inline-block;
+}
+#div5::after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: linear-gradient(to right, hsla(0, 20%, 20%, .1), hsla(0, 20%, 20%, .8));
+}
+#div6{
+    background-color: red;
+    background: radial-gradient(at top right, red, yellow);
+}
+#div7{
+    width: 600px;
+    background-color: red;
+    background: radial-gradient(circle closest-side, red, yellow);
+}
+#div8{
+    background-color: red;
+    background: repeating-linear-gradient(45deg, yellow, yellow 10px, red 10px, red 20px);
+}
+#div9{
+    background-color: red;
+    background: repeating-radial-gradient(at 0 0, pink, pink 10px, purple 10px, purple 20px);
+}
+#div10{
+   background:
+linear-gradient(45deg, #92baac 45px, transparent 45px)64px 64px,
+linear-gradient(45deg, #92baac 45px, transparent 45px,transparent 91px, #e1ebbd 91px, #e1ebbd 135px, transparent 135px),
+linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px,#92baac 68px,#92baac 113px,transparent 113px,transparent 158px,#92baac 158px);
+background-color:#e1ebbd;
+background-size: 128px 128px;
+}
+html{
+    background: transparent url("gummy-bears.jpeg") no-repeat fixed 0 0 / cover;
+    position:relative;
+}
+html::after{
+    position:absolute;
+    content:'';
+    height:100%;
+    width: 100%;
+    top:0;
+    left: 0;
+    background: hsla(40, 20%, 90%, .8);
+    z-index: -1;
+}
