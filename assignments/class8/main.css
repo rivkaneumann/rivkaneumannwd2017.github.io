@@ -1,0 +1,62 @@
+html{
+    background: transparent url("sunset-tree.jpg") no-repeat fixed 0 0 / cover;
+
+}
+
+html::after{
+    position:absolute;
+    content:'';
+    height:100%;
+    width: 100%;
+    top:0;
+    left: 0;
+    background: linear-gradient(hsl(356, 60%, 62%), transparent);
+    z-index: -1;
+}
+ul{
+    list-style: none;
+}
+.logo{
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-left: 10px;
+
+}
+header{
+    background-color: transparent;
+
+}
+nav > ul > li  {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+}
+nav li a{
+    text-decoration: none;
+    color: hsl(330, 49%, 30%);
+    margin: 10px;
+    font-size: 20px;
+
+}
+header:hover {
+    background-color: rgba(255, 255, 255, .97);
+}
+nav li a:hover{
+   border-top: 5px solid hsl(1, 58%, 64%);
+
+}
+nav li div {
+    position: absolute;
+    background-color: rgba(255, 255, 255, .97);;
+    border-radius: 0 0 10px 10px;
+    top:98px;
+    left: 420px;
+    width: 150px;
+    height: 0;
+    overflow: hidden;
+    margin:auto;
+}
+nav li div ul {
+    padding: 10px;
+}
