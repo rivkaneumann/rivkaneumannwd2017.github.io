@@ -1,7 +1,7 @@
 $(function(){
 
     var invisible = true;
-    var myRight = "320px";
+    var myRight = "0px";
 
     $("#hamburger").on("click", function(){
        $("#menu").animate(
@@ -9,10 +9,10 @@ $(function(){
            );
 
         if (invisible) {
-            myRight = "-230px";
+            myRight = "-250px";
             invisible = false;
         }else{
-            myRight = "320px";
+            myRight = "0px";
             invisible = true;
 
         }

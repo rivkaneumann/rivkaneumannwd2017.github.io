@@ -1,20 +1,20 @@
 
 header {
     height: 54px;
-    width: 1024px;
     background-color: #EB5757;
 }
-
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
 main {
     background: #F2C94C;
     height: 573px;
-    width: 1024px;
 }
 
 footer {
     background: #F2994A;
     height: 397px;
-    width: 1024px;
 }
 #hamburger{
     height: 50px;
