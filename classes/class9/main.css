@@ -1,0 +1,64 @@
+
+@font-face {
+    font-family: '20_dbregular';
+    src: url('20db.otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '20_dbregular';
+    src: url('20db_italic.otf');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'modernpics';
+    src: url('modernpics.otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p {
+    font-family: "20_dbregular", arial, sans-serif;
+    margin: 1.2em;
+    font-size: 1.4em;
+
+}
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+}
+
+div {
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: aqua;
+
+}
+span{
+    font-weight: 700;
+    font-style: normal;
+}
+body {
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #222;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.glyph {
+    font-family: "modernpics";
+    font-size: 3em;
+}

@@ -1,0 +1,43 @@
+
+body{
+    font-size: 1em;
+    line-height: 1.4em;
+}
+h2{
+    margin-top: 50px;
+}
+li{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.pale-pink{
+    background-color: #fec4dc;
+}
+
+.light-green{
+    background-color: #cbe5e4;
+}
+.turquoise{
+    background-color: #72A4B0;
+}
+.blue{
+    background-color: #91aace;
+}
+.pale-yellow{
+    background-color: #F2ECDC;
+}
+
+
+.headings {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+}
+
+.font-small {
+font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  font-style: italic;
+}

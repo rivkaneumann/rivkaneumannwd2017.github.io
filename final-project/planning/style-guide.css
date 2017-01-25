@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'novecento_book';
+    src:url('Novecentosanswide-Book-webfont.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'novecento_normal';
+    src:url('Novecentosanswide-Normal-webfont');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    font-family: 'novecento_book';
+    font-size: 1em;
+    line-height: 1.4em;
+}
+h2{
+    margin-top: 50px;
+}
+li{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    padding: 10px;
+}
+#advert{
+    height: 350px;
+
+}
+
+.pink{
+    background-color: #c32840;
+}
+
+.grey{
+    background-color: #D7C8CD;
+}
+.purple{
+    background-color: #72214d;
+}
+.turquoise{
+    background-color: #1A7569;
+}
+.cream{
+    background-color: #F4F0D7;
+}
+
+
+.headings {
+  font-family: 'Cinzel Decorative', cursive;
+    font-size: 3em;
+}
+
+.font-small {
+  font-size: 1em;
+}
