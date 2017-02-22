@@ -1,0 +1,34 @@
+
+.lightbox-hidden{
+    display:none;
+}
+.featherlight .featherlight-content{
+    background: pink;
+    border: 3px dashed yellow;
+    font-size: 2em;
+
+}
+
+.slider img{
+max-width:50%;
+}
+.four{
+    background: yellow;
+    height:200px;
+    width:50%;
+}
+.five{
+    background: pink;
+    height:200px;
+    width:50%;
+}
+.six{
+    background: orange;
+    height:200px;
+    width:50%;
+}
+.rellax{
+    background: green;
+    width: 300px;
+    height: 500px;
+}

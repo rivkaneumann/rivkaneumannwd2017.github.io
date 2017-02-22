@@ -1,10 +1,79 @@
+
 .logo{
     font-family:'Dancing Script', cursive;
     font-size: 4em;
+    color: #f2ecdc;
 }
 .navbar{
     background-color: #fec4dc;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    font-size: 1.5em;
 }
-.jumbotron {
+
+
+#header {
       margin-bottom: 0;
-    }
+}
+ .nav.navbar-nav {
+     clear: left;
+     float: left;
+     padding: 0;
+     position: relative;
+     left: 50%;
+     text-align: center;
+ }
+ .nav.navbar-nav > li {
+     position: relative;
+     right: 50%;
+ }
+ .nav.navbar-nav li {
+    text-align: left;
+    padding:10px 65px;
+ }
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+    background-color: #cbe5e4;
+
+}
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      max-height:450px;
+      overflow: hidden;
+
+  }
+
+#myCarosel{
+    overflow:hidden;
+}
+.navbar-nav>li>a{
+    color:#91aace;
+}
+.dance{
+    font-size: 12em;
+    color: #fec4dc;
+}
+.dance-caption{
+    font-size: 3em;
+    color:#91aace;
+}
+.gym{
+    font-size: 12em;
+    color:#fec4dc;
+}
+.gym-caption{
+    font-size: 3em;
+    color: #cbe5e4;
+}
+
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+.hamburger{
+    color:black;
+}
+.navbar-custom {
+     margin-bottom:0
+}
