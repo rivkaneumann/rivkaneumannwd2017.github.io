@@ -44,6 +44,7 @@
   }
 body{
     background: #f4f0d7;
+    font-family: novecento_book;
 }
 
 
@@ -52,7 +53,6 @@ body{
       padding-left: 10px;
       padding-right: 10px;
     margin-bottom: 0;
-
     font-family: 'Cinzel Decorative';
     font-weight: 800;
     font-size: 1.3em;
@@ -78,26 +78,80 @@ body{
   width: 250px;
 }
 .navbar, .navbar div, .navbar-brand, .navbar-header {
-     min-height: 130px;
-
+     min-height: 120px;
 
   }
 .navbar-default .navbar-nav>li>a{
     color: #72214d;
     top: 50px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
     background: #d7c8cd;
     color: #c32840;
     border-radius: 10px;
+     border-top:6px solid #72214d;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
     color:#c32840;
+        border-top:6px solid #72214d;
+    border-radius:10px;
 }
 .navbar-brand>img{
     width: 230px;
-    margin-left: 120px;
+}
 
+.container{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+}
+.item{
+    max-width:100%;
+}
+.caption{
+    background: #72214d;
+    color: #d7c8cd;
+    border-radius: 5px;
+   font-family: novecento_book;
+    font-weight:600;
+    opacity: .8;
+}
+
+
+blockquote
+{
+
+    clear: both;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 10px 0 50px;
+    position: relative;
+    quotes:inherit;
+    border: 0px;
+    font-size: 5em;
+    line-height: 200%;
+      font-family: novecento_book;
+    font-weight:600;
+    color:#72214d;
+}
+
+.testimonial-header{
+     font-family: 'Cinzel Decorative';
+    font-weight: 600;
+    color: #c32840;
+}
+.services{
+     font-family: 'Cinzel Decorative';
+    font-size: 4em;
+    font-weight: 600;
+    text-align: center;
+}
+.row1 div{
+    height: 200px;
+    width: 200px;
+    background:red;
+    margin: 10px 10px ;
+    text-align: center;
 }

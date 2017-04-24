@@ -1,0 +1,114 @@
+*{
+    color: purple;
+}
+
+div > h1{
+    color: red;
+}
+
+div.something {
+    color:black;
+    height: 200px;
+    background: linear-gradient(rgba(255, 0, 0, .7), rgba(0, 0, 255, .7)),
+                url(../class2/assets/rainbow.png) no-repeat 80%;
+}
+
+html body div article h1 {
+    color: green;
+}
+
+h1[data="mydata"] {
+    color: blue;
+}
+
+h1.h1_class{
+    color: blueviolet;
+}
+
+h1:last-child{
+    color: yellow !important;
+}
+
+div > a, div + article, h1 ~ h2{
+
+}
+
+a:not([href*="compuskills"])
+
+[class*="row"]
+
+h1{
+
+}
+
+li a:first-child{
+    color: blue;
+}
+
+.smiley, .rainbow{
+    background-image: url(sprites.png);
+}
+
+
+.rainbow{
+    background-position: 0 -331px;
+    width: 200px;
+    height: 90px;
+}
+.smiley{
+    background-position: 0 0;
+    width: 324px;
+    height: 324px;
+}
+
+.testing_transitions{
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 50px;
+    transition: font-size .5s 1s;
+    padding: 20px;
+
+}
+.testing_transitions:hover{
+    font-size: 2em;
+    color: blue;
+    transform: rotate(90deg);
+}
+
+li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: orange;
+    position: relative;
+}
+
+li div{
+    opacity:0;
+    visibility:hidden;
+    width: 200px;
+    height: 90px;
+    max-height: 0px;
+    background: purple;
+    position: absolute;
+    top: 100%;
+
+    overflow: hidden;
+    transition: all 1s;
+
+}
+li:hover div{
+    opacity:1;
+    visibility:visible;
+    max-height: 100%;
+    transition: max-height 1s;
+}
+
+@font-face{
+	font-family: 'MyWebFont';
+	src: url('dorianclm-book-webfont.ttf');
+}
+.testing_transitions{
+    font-family: MyWebFont;
+}

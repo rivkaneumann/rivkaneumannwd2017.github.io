@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Class 12</title>
-    <link href="main.css" rel="stylesheet">
-    <link href="http://cdn.rawgit.com/noelboss/featherlight/1.7.0/release/featherlight.min.css" type="text/css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
-    <link href="main.css" rel="stylesheet">
-
-</head>
-<body>
-    <h1>here is my page</h1>
+<? include("header.html"); ?>
     <iframe src="http://www.dmcsales.com" width="20%" height="200px"></iframe>
     <iframe src="https://docs.google.com/spreadsheets/d/1h9Jx3CoMu8QNypDUAeYp5OYhRSCZaAsbi4brGjb7IbQ/pubhtml?widget=true&amp;headers=false" width="20%" height="200px"></iframe>
 
@@ -42,29 +31,4 @@
           </div>
 
 
-
-    </div>
-
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-<script src="http://cdn.rawgit.com/noelboss/featherlight/1.7.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-    <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-
-<script>
-    $(document).ready(function(){
-  $('.slider').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 1000,
-      infinits: true
-});
-
- var rellax = new Rellax('.rellax');
-    });
-
-    </script>
-
-    <script src="rellax.min.js"></script>
-</body>
-
-</html>
+<? include("footer.html"); ?>

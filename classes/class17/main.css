@@ -1,0 +1,132 @@
+body{
+    background-color: bisque;
+    border: 2px solid blue;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.progress-bar{
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: hsl(250, 40%, 20%);
+    box-shadow: 0px -2px 1px 2px hsl(250, 40%, 50%) inset;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.progress-bar div{
+    width: 20%;
+    height: 100%;
+    background-color: hsl(250, 80%, 70%);
+     box-shadow: 0px 2px 9px 4px hsl(250, 40%, 50%) inset;
+    border-radius: 15px;
+    animation: grow 2s infinite alternate linear;
+    position: relative;
+    overflow: hidden;
+}
+.progress-bar div::after{
+    position: absolute;
+    content: '';
+    top:0; left: 0; bottom: 0; right: 0;
+    border-radius: 15px;
+    background-image: linear-gradient(-45deg, hsla(250, 40%, 70%, .8) 25%, transparent 25%, transparent 50%, hsla(250, 40%, 70%, .8) 50%, hsla(250, 40%, 70%, .8) 75%, transparent 75%, transparent 100%);
+    background-size: 50px 50px;
+    animation: slide-stripe 1s infinite linear;
+}
+
+@keyframes grow{
+    0%{
+         width: 0%;
+    }
+    100% {
+        width:  100%;
+    }
+}
+
+@keyframes slide-stripe{
+    0%{
+         background-position: 0px 0px;
+    }
+    100% {
+        background-position: 50px 50px;
+    }
+}
+
+h1{
+    font-size: 4vw;
+}
+h2{
+    font-size:3vw;
+}
+section{
+    font-size:2vw;
+}
+@media (max-width:450px){
+ h1{
+    font-size: 8vw;
+}
+h2{
+    font-size:6vw;
+}
+section{
+    font-size:4vw;
+}
+}
+.perspective-parent{
+    perspective: 200px;
+    perspective-origin: bottom left;
+    transform-style:preserve-3d;
+}
+
+
+.perspective-parent div{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    display: inline-block;
+    transform: rotateY(45deg);
+    transition: 1s;
+    animation: slide-left 1s alternate infinite forwards;
+
+}
+.perspective-parent div:hover{
+  /* transform: rotateY(0);*/
+    animation-play-state: paused;
+}
+
+.perspective-parent div:nth-child(1){
+    background:blue;
+    transform: translateZ(-10px);
+
+}
+.perspective-parent div:nth-child(2){
+    background:green;
+    transform: translateZ(20px);
+}
+.perspective-parent div:nth-child(3){
+    background:purple;
+    transform: translateZ(-30px);
+}
+
+@keyframes slide-left {
+    0% {
+        transform: translateX(0);
+    }
+  /* 50% {
+        transform: translateX(10px);
+    }*/
+    100% {
+         transform: translateX(-20px);
+    }
+}
+@keyframes grow{
+    0%{
+         width: 0%;
+    }
+    100% {
+        width:  100%;
+    }
+}
